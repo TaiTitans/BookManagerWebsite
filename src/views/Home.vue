@@ -9,7 +9,7 @@
   <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
     <h1 class="text-5xl font-bold leading-tight mb-4">Chào mừng đến với Books CTU</h1>
     <p class="text-lg text-gray-300 mb-8">Cung cấp quản lí sách dành cho sinh viên.</p>
-    <a href="#" class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Bắt đầu</a>
+    <a href="#1" class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Bắt đầu</a>
   </div>
 </div>
 
@@ -62,7 +62,7 @@
     <div class="w-full sm:w-8/12 mb-10">
       <div class="container mx-auto h-full sm:p-10">
         <nav class="flex px-4 justify-between items-center">
-          <div class="text-4xl font-bold">
+          <div class="text-4xl font-bold" id="1">
             CTU<span class="text-blue-700">.</span>
           </div>
           <div>
@@ -84,7 +84,7 @@ Trung tâm Học liệu có sức chứa 1000 chỗ ngồi, 4 phòng thảo lu�
     <img src="../assets/img/tthl.jpg" alt="Leafs" class="w-full h-48 object-cover sm:h-screen sm:w-4/12">
   </div>
 
-  <div class="lg:ml-6 lg:col-start-2 w-[700px] mt-4">
+  <div class="lg:ml-6 lg:col-start-2 w-[700px] mt-4 mb-4">
     <p class="text-[20px] font-semibold leading-6 text-indigo-500 uppercase">
         Lộ trình phát triển
     </p>

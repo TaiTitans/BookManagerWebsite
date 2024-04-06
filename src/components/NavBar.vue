@@ -1,7 +1,7 @@
 <template>
   <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
     <div class="flex-1 flex justify-between items-center">
-        <router-link to="/" class="text-xl">Books Manage</router-link>
+        <router-link to="/" class="text-2xl text-blue-500 font-mono font-bold">Books Manage</router-link>
     </div>
 
     <label for="menu-toggle" class="pointer-cursor md:hidden block">
@@ -16,8 +16,9 @@
     <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
         <nav>
             <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                <li><router-link to="/muonsach" class="md:p-4 py-3 px-0 block" href="#">Mượn Sách</router-link></li>
-                <li><router-link to="/trasach" class="md:p-4 py-3 px-0 block" href="#">Trả Sách</router-link></li>
+                <li><router-link to="/muonsach" class="md:p-4 py-3 px-0 block hover:text-blue-500">Mượn Sách</router-link></li>
+                <li><router-link to="/trasach" class="md:p-4 py-3 px-0 block hover:text-blue-500" href="#">Trả Sách</router-link></li>
+                <li  class="md:p-4 py-3 px-0 block hover:text-blue-500">Đăng xuất</li>
             </ul>
         </nav>
     </div>
