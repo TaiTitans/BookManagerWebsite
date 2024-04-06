@@ -119,7 +119,7 @@ import { ref } from "vue";
 
 import SelectButton from 'primevue/selectbutton';
 import api from '../Services/api.services'; 
-
+import router from '../router/index';
 export default {
     components:{
         Calendar,
@@ -159,6 +159,7 @@ export default {
             console.log(response.data)
             
             this.successMessage = "Đăng ký thành công !!";
+            router.push({name: "Login"})
         })
         .catch(error=>{
             console.error(error);

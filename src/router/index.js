@@ -44,12 +44,17 @@ const router = createRouter({
 
 router.beforeEach((to, from, next)=>{
   const isAuthenticated = localStorage.getItem('isAuthenticated')
+
+  //Kiểm tra có phải trang login không
   const isLoginPage = to.path === "/login"
+  
   const isRegisterLinkClicked = from.path === '/login' && to.path === '/register';
   if(!isAuthenticated && !isLoginPage && !isRegisterLinkClicked){
     localStorage.setItem('redirectPath', to.path)
+    console.log(isAuthenticated);
     next('/login')
   }else{
+    console.log(isAuthenticated);
     next()
   }
 })
