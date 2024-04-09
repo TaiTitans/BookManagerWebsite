@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="mt-1">
     <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
   <div class="absolute inset-0">
     <img src="../assets/img/background.jpg" alt="Background Image" class="object-cover object-center w-full h-full" />
