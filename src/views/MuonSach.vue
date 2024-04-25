@@ -47,7 +47,7 @@
                 class="px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700"
                 @click.prevent="prevPage"
               >
-                Previous
+                Trước
               </a>
             </li>
             <li v-for="page in totalPages" :key="page">
@@ -68,7 +68,7 @@
                 class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700"
                 @click.prevent="nextPage"
               >
-                Next
+                Sau
               </a>
             </li>
           </ul>

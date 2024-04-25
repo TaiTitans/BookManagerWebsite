@@ -70,10 +70,7 @@ export default {
       api
         .post('/borrow/createBorrowBook', { MaDocGia, MaSach, _id })
         .then((response) => {
-            console.log('Muon Thanh Cong');
             window.location.pathname = "/muonsach";
-          // Xử lý khi mượn sách thành công
-          this.successMessage = "Đăng nhập thành công !!";
         })
         .catch((error) => {
             console.log('Muon That Bai');
